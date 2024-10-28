@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <title>Geometry</title>
+    <!--  --------- IMPORTED LIBRARIES  ------>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+<body>
+    <a-scene>
+        <a-entity position = "0 0 0"><a-plane
+            color="#000000"
+            position="0 0 -5"
+            rotation="-90 0 0"
+            width="10"
+            height = "10"
+          ></a-plane></a-entity>
+          <a-entity position = "0 2 5"><a-camera></a-camera></a-entity>
+          <a-entity><a-sphere position="-1 -0.3 -6.2" color="#FD5D59" radius="0.5"> </a-sphere></a-entity>
+          <a-entity><a-sphere position="0.9 -0.3 -6.2" color="#FD5D59" radius="0.5"> </a-sphere></a-entity>
+          <a-entity><a-cylinder
+            position="-1 1 -6"
+            radius="0.2"
+            height="1.5"
+            color="#FFC65D"
+          ></a-cylinder></a-entity>
+          <a-entity><a-cylinder
+            position="0.9 1 -6"
+            radius="0.2"
+            height="1.5"
+            color="#FFC65D"
+          ></a-cylinder></a-entity>
+          <a-box
+        position="0 3 -6"
+        depth="0.2"
+        height="3"
+        width="3"
+        color="#0487C2"
+      ></a-box>
+      <a-box
+        position="-0.5 3.5 -6"
+        depth="0.2"
+        height="1"
+        width="1"
+        color="#FFEB42"
+      ></a-box>
+      <a-box
+        position="0.6 3.5 -6"
+        depth="0.2"
+        height="1"
+        width="1"
+        color="#FF6529"
+      ></a-box>
+      <a-box
+        position="0.6 2.4 -6"
+        depth="0.2"
+        height="1"
+        width="1"
+        color="#FF2372"
+      ></a-box>
+      <a-box
+        position="-0.5 2.4 -6"
+        depth="0.2"
+        height="1"
+        width="1"
+        color="#B32EC9"
+      ></a-box>
+      <a-entity><a-cylinder
+        position="-1.8 3 -6"
+        rotation="20 90 0"
+        radius="0.2"
+        height="1.5"
+        color="#FFC65D"
+      ></a-cylinder></a-entity>
+      <a-entity><a-cylinder
+        position="1.8 3 -6"
+        rotation="160 90 0"
+        radius="0.2"
+        height="1.5"
+        color="#FFC65D"
+      ></a-cylinder></a-entity>
+      <a-entity><a-dodecahedron position="-2.1 2.2 -6.1" color="#058ECB" radius="0.4"> </a-dodecahedron></a-entity>
+      <a-entity><a-dodecahedron position="2.1 2.2 -6.1" color="#058ECB" radius="0.4"> </a-dodecahedron></a-entity>
+      <a-entity><a-box
+        position="0 4.7 -6"
+        depth="0.2"
+        height="0.4"
+        width="1.5"
+        color="#FFBE02"
+      ></a-box></a-entity>
+      <a-entity><a-box
+        position="0 5.6 -6"
+        depth="0.2"
+        height="1.5"
+        width="2"
+        color="#0588C3"
+      ></a-box></a-entity>
+      <a-entity position="0.5 5.8 -6"><a-sphere position="0 0 0" color="white  " radius="0.3"> </a-sphere></a-entity>
+      <a-entity position="-0.5 5.8 -6"><a-sphere position="0 0 0" color="white" radius="0.3"> </a-sphere></a-entity>
+    <a-sphere position="-0.5 5.75 -5.8"
+       color="#000000" radius="0.15"
+        animation="property: position;from: -0.5 5.75 -5.8;to: -0.5 5.9 -5.8;easing: linear;dir: alternate;loop: true; dur: 1000;"></a-sphere>
+        <a-sphere position="0.5 5.75 -5.8"
+        color="#000000" radius="0.15"
+         animation="property: position;from: 0.5 5.75 -5.8;to: 0.5 5.9 -5.8;easing: linear;dir: alternate;loop: true; dur: 1000;"></a-sphere>
+      <a-cylinder
+         position="0 6.8 -6"
+         radius="0.1"
+         height="1"
+         color="grey"
+         animation="property: rotation;from: 0 0 0;to: 0 0 20;easing: linear;dir: alternate;loop: true; dur: 1000;"
+       ></a-cylinder>
+       <a-box
+        position="0 5.2 -6"
+        depth="0.2"
+        height="0.1"
+        width="1.2"
+        color="#FFBE02"
+      ></a-box>
+    </a-scene>
+</body>
+</html>
